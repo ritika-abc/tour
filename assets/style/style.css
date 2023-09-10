@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+body{
+    background-color: #f5f6f6 !important;
+}
+
 .google_fonts {
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
@@ -95,7 +99,7 @@
 .sub_button:hover .over {
     top: 0%;
 
-    transform: scale(27);
+    transform: scale(30);
     background-color: #00000091;
 
 }
@@ -299,8 +303,28 @@ footer {
 
 }
 
+.des_bg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.568),rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.555)), url("../image/deals-1.jpg");
+    background-size: cover;
+}
+.tour_bg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.596)), url("../image/page-title-5.jpg");
+    background-size: cover;
+}
+ 
 
 
+
+
+
+
+
+
+
+
+
+
+  
 /*  */
 @media screen and (max-width:576px) {
     .over_image {
